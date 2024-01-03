@@ -99,3 +99,8 @@ DispatchQueue.global().async {
 }
 
 
+
+// Prints:
+//  value: initial value.
+//  value: second value.
+//  The process then terminates in the debugger as the assertNoFailure operator catches the genericSubjectError.
